@@ -21,8 +21,8 @@ const Popup = ({ id, message }: PopupProps) => {
     closeDialog(id)
   }
 
-  const handleCheck = () => {
-    setChecked((prev) => !prev)
+  const handleCheck = (value: boolean) => {
+    setChecked(value)
   }
 
   return (
